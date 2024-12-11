@@ -1,0 +1,49 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: sajee
+      changes:
+        - createTable:
+            tableName: customer
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: username
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: email
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: password
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: phone
+                  type: bigint(14)
+                  constraints:
+                    nullable: true
+  - changeSet:
+      id: 2
+      author: sajee
+      changes:
+        - addColumn:
+            tableName: customer
+            columns:
+              - column:
+                  name: is_premium
+                  type: boolean
+                  defaultValue: false
+                  constraints:
+                    nullable: false
+

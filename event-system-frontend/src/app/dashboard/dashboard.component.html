@@ -1,0 +1,17 @@
+<div class="ticket-dashboard">
+  <h1>Ticket Dashboard</h1>
+  <div class="ticket-info">
+    <h2>Ticket Information</h2>
+    <ul>
+      <li><span class="info-label">Total Tickets:</span> {{ dashboardData.totalTickets }}</li>
+      <li><span class="info-label">Max Ticket Capacity:</span> {{ dashboardData.maxTicketCapacity }}</li>
+      <li><span class="info-label">Released Tickets:</span> {{ dashboardData.releasedTickets }}</li>
+      <li><span class="info-label">Available Tickets:</span> {{ dashboardData.availableTickets }}</li>
+      <li><span class="info-label">Ticket Release Rate:</span> {{ dashboardData.ticketReleaseRate }} tickets</li>
+      <li><span class="info-label">Customer Retrieval Rate:</span> {{ dashboardData.customerRetrievalRate }} tickets</li>
+    </ul>
+  </div>
+  <div class="charts">
+    <!-- Add chart components here -->
+  </div>
+</div>

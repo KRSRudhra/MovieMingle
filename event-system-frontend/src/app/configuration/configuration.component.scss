@@ -1,0 +1,22 @@
+.configuration-container {
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+}
+.message {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+
+  &.success {
+    background-color: #d1fae5; /* Light green background */
+    color: #065f46; /* Dark green text */
+    border: 1px solid #34d399; /* Green border */
+  }
+
+  &.error {
+    background-color: #fee2e2; /* Light red background */
+    color: #991b1b; /* Dark red text */
+    border: 1px solid #f87171; /* Red border */
+  }
+}

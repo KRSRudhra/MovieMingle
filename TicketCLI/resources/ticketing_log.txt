@@ -1,0 +1,68 @@
+2024-12-11 18:35:54 - Ticket operations started with threads.
+2024-12-11 18:35:59 - Vendor [1] added Ticket ID: 709 | Total Tickets Added: 1
+2024-12-11 18:35:59 - Vendor [2] added Ticket ID: 495 | Total Tickets Added: 2
+2024-12-11 18:36:00 - Customer bought Ticket ID: 709 | Tickets Remaining: 1
+2024-12-11 18:36:00 - Customer bought Ticket ID: 495 | Tickets Remaining: 0
+2024-12-11 18:36:04 - Vendor [1] added Ticket ID: 852 | Total Tickets Added: 3
+2024-12-11 18:36:04 - Vendor [2] added Ticket ID: 999 | Total Tickets Added: 4
+2024-12-11 18:36:06 - Customer bought Ticket ID: 852 | Tickets Remaining: 1
+2024-12-11 18:36:06 - Customer bought Ticket ID: 999 | Tickets Remaining: 0
+2024-12-11 18:36:09 - Vendor [1] added Ticket ID: 202 | Total Tickets Added: 5
+2024-12-11 18:36:09 - Vendor [2] added Ticket ID: 760 | Total Tickets Added: 6
+2024-12-11 18:36:09 - Customer bought Ticket ID: 202 | Tickets Remaining: 1
+2024-12-11 18:36:09 - Customer bought Ticket ID: 760 | Tickets Remaining: 0
+2024-12-11 18:36:14 - Vendor [1] added Ticket ID: 857 | Total Tickets Added: 7
+2024-12-11 18:36:14 - Vendor [2] added Ticket ID: 65 | Total Tickets Added: 8
+2024-12-11 18:36:15 - Customer bought Ticket ID: 857 | Tickets Remaining: 1
+2024-12-11 18:36:15 - Customer bought Ticket ID: 65 | Tickets Remaining: 0
+2024-12-11 18:36:19 - Vendor [1] added Ticket ID: 132 | Total Tickets Added: 9
+2024-12-11 18:36:19 - Vendor [2] added Ticket ID: 136 | Total Tickets Added: 10
+2024-12-11 18:36:21 - Customer bought Ticket ID: 132 | Tickets Remaining: 1
+2024-12-11 18:36:21 - Customer bought Ticket ID: 136 | Tickets Remaining: 0
+2024-12-11 18:36:24 - Vendor [1] added Ticket ID: 510 | Total Tickets Added: 11
+2024-12-11 18:36:24 - Vendor [2] added Ticket ID: 849 | Total Tickets Added: 12
+2024-12-11 18:36:24 - Customer bought Ticket ID: 510 | Tickets Remaining: 1
+2024-12-11 18:36:24 - Customer bought Ticket ID: 849 | Tickets Remaining: 0
+2024-12-11 18:36:29 - Vendor [1] added Ticket ID: 328 | Total Tickets Added: 13
+2024-12-11 18:36:29 - Vendor [2] added Ticket ID: 458 | Total Tickets Added: 14
+2024-12-11 18:36:30 - Customer bought Ticket ID: 328 | Tickets Remaining: 1
+2024-12-11 18:36:30 - Customer bought Ticket ID: 458 | Tickets Remaining: 0
+2024-12-11 18:36:34 - Vendor [1] added Ticket ID: 697 | Total Tickets Added: 15
+2024-12-11 18:36:34 - Vendor [2] added Ticket ID: 166 | Total Tickets Added: 16
+2024-12-11 18:36:36 - Customer bought Ticket ID: 697 | Tickets Remaining: 1
+2024-12-11 18:36:36 - Customer bought Ticket ID: 166 | Tickets Remaining: 0
+2024-12-11 18:36:39 - Vendor [1] added Ticket ID: 308 | Total Tickets Added: 17
+2024-12-11 18:36:39 - Vendor [2] added Ticket ID: 746 | Total Tickets Added: 18
+2024-12-11 18:36:39 - Customer bought Ticket ID: 308 | Tickets Remaining: 1
+2024-12-11 18:36:39 - Customer bought Ticket ID: 746 | Tickets Remaining: 0
+2024-12-11 18:36:44 - Vendor [1] added Ticket ID: 410 | Total Tickets Added: 19
+2024-12-11 18:36:44 - Vendor [2] added Ticket ID: 615 | Total Tickets Added: 20
+2024-12-11 18:36:45 - Customer bought Ticket ID: 410 | Tickets Remaining: 1
+2024-12-11 18:36:45 - Customer bought Ticket ID: 615 | Tickets Remaining: 0
+2024-12-11 18:36:45 - All tickets have been bought. Stopping customers...
+2024-12-11 18:36:45 - All tickets have been bought. Stopping customers...
+2024-12-11 18:36:48 - All tickets have been bought. Stopping customers...
+2024-12-11 18:36:48 - All tickets have been bought. Stopping customers...
+2024-12-11 18:36:49 - Vendor [1] has added the total limit of tickets. Stopping...
+2024-12-11 18:36:49 - Vendor [2] has added the total limit of tickets. Stopping...
+2024-12-12 00:14:07 - Ticket operations started with threads.
+2024-12-12 00:15:06 - Ticket operations started with threads.
+2024-12-12 00:15:11 - Vendor [4] added Ticket ID: 123 | Total Tickets Added: 1
+2024-12-12 00:15:11 - Vendor [1] added Ticket ID: 556 | Total Tickets Added: 2
+2024-12-12 00:15:11 - Customer bought Ticket ID: 123 | Tickets Remaining: 1
+2024-12-12 00:15:11 - Vendor [2] added Ticket ID: 993 | Total Tickets Added: 3
+2024-12-12 00:15:11 - Customer bought Ticket ID: 556 | Tickets Remaining: 1
+2024-12-12 00:15:11 - Customer bought Ticket ID: 993 | Tickets Remaining: 0
+2024-12-12 00:15:11 - Vendor [5] added Ticket ID: 328 | Total Tickets Added: 4
+2024-12-12 00:15:11 - Vendor [3] added Ticket ID: 855 | Total Tickets Added: 5
+2024-12-12 00:15:11 - Customer bought Ticket ID: 328 | Tickets Remaining: 1
+2024-12-12 00:15:16 - Customer bought Ticket ID: 855 | Tickets Remaining: 0
+2024-12-12 00:15:16 - Vendor [1] added Ticket ID: 702 | Total Tickets Added: 6
+2024-12-12 00:15:16 - Vendor [4] added Ticket ID: 598 | Total Tickets Added: 7
+2024-12-12 00:15:16 - Vendor [2] added Ticket ID: 435 | Total Tickets Added: 8
+2024-12-12 00:15:16 - Customer bought Ticket ID: 702 | Tickets Remaining: 2
+2024-12-12 00:15:16 - Vendor [3] added Ticket ID: 942 | Total Tickets Added: 9
+2024-12-12 00:15:16 - Customer bought Ticket ID: 598 | Tickets Remaining: 2
+2024-12-12 00:15:16 - Vendor [5] added Ticket ID: 704 | Total Tickets Added: 10
+2024-12-12 00:15:16 - Customer bought Ticket ID: 435 | Tickets Remaining: 2
+2024-12-12 00:15:16 - Customer bought Ticket ID: 942 | Tickets Remaining: 1

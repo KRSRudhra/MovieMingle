@@ -1,0 +1,137 @@
+.add-purchase {
+  .status-bar {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-bottom: 2px solid #e0e0e0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    h2 {
+      margin: 0;
+      font-size: 1.75rem;
+      color: #222831;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0.75rem 0 0;
+      font-size: 1.2rem;
+      color: #4f4f4f;
+      line-height: 1.5;
+
+      .status-highlight {
+        font-weight: 600;
+        color: #007bff;
+      }
+    }
+  }
+
+  .content {
+    padding: 2rem;
+
+    .controls {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+
+      button {
+        padding: 0.75rem 2rem;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &.start-button {
+          background-color: #4caf50; // Polite green
+          color: white;
+
+          &:hover {
+            background-color: #45a049;
+          }
+        }
+
+        &.stop-button {
+          background-color: #f44336; // Pleasant red
+          color: white;
+
+          &:hover {
+            background-color: #d32f2f;
+          }
+        }
+
+        &:disabled {
+          background-color: #cccccc;
+          color: #666666;
+          cursor: not-allowed;
+        }
+      }
+    }
+
+    .ticket-actions {
+      display: flex;
+      justify-content: space-around;
+
+      div {
+        text-align: center;
+
+        h3 {
+          margin-bottom: 0.5rem;
+          font-size: 1.5rem;
+          color: #333333;
+        }
+
+        input {
+          margin-bottom: 0.5rem;
+          padding: 0.5rem;
+          border: 1px solid #cccccc;
+          border-radius: 5px;
+          font-size: 1rem;
+          width: 80%;
+        }
+
+        button {
+          padding: 0.5rem 1rem;
+          font-size: 1rem;
+          border: none;
+          border-radius: 5px;
+          background-color: #007bff;
+          color: white;
+          cursor: pointer;
+          transition: background-color 0.3s;
+
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+    }
+
+    .response {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 1.2rem;
+      color: #4f4f4f;
+    }
+
+    .dashboard-button {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .dashboard-button button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .dashboard-button button:hover {
+      background-color: #2980b9;
+    }
+
+  }
+}

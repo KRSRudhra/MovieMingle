@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: sajee
+      changes:
+        - createTable:
+            tableName: ticket_pool
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: available_tickets
+                  type: bigint(4)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: released_tickets
+                  type: bigint(4)
+                  constraints:
+                    nullable: false

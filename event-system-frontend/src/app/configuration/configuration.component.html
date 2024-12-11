@@ -1,0 +1,81 @@
+<div class="max-w-xl mx-auto mt-10 p-5 bg-gray-100 rounded-lg shadow-lg">
+  <h1 class="text-3xl font-semibold text-center mb-6 text-blue-600">Ticketing System Configuration</h1>
+
+  <!-- Success/Error Message Display -->
+  <div *ngIf="message" class="message" [ngClass]="messageType">
+    {{ message }}
+  </div>
+
+  <!-- Display Backend Response -->
+  <div *ngIf="backendResponse" class="response mt-5 p-4 bg-white rounded shadow">
+    <h3 class="text-lg font-semibold mb-3 text-gray-800">Backend Response:</h3>
+    <pre class="bg-gray-50 p-3 rounded border text-sm text-gray-700">{{ backendResponse | json }}</pre>
+  </div>
+
+  <form [formGroup]="ticketForm" (ngSubmit)="onSubmit()">
+    <!-- Total Tickets -->
+    <div class="mb-5">
+      <label for="totalTickets" class="block text-sm font-semibold mb-1 text-gray-700">Total Tickets</label>
+      <input
+        id="totalTickets"
+        type="number"
+        formControlName="totalTickets"
+        class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400 focus:outline-none"
+      />
+      <p *ngIf="f['totalTickets'].invalid && f['totalTickets'].touched" class="text-red-500 text-xs mt-1">
+        Total tickets must be a positive number.
+      </p>
+    </div>
+
+    <!-- Ticket Release Rate -->
+    <div class="mb-5">
+      <label for="ticketReleaseRate" class="block text-sm font-semibold mb-1 text-gray-700">Ticket Release Rate</label>
+      <input
+        id="ticketReleaseRate"
+        type="number"
+        formControlName="ticketReleaseRate"
+        class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400 focus:outline-none"
+      />
+      <p *ngIf="f['ticketReleaseRate'].invalid && f['ticketReleaseRate'].touched" class="text-red-500 text-xs mt-1">
+        Ticket release rate must be a positive number.
+      </p>
+    </div>
+
+    <!-- Customer Retrieval Rate -->
+    <div class="mb-5">
+      <label for="customerRetrievalRate" class="block text-sm font-semibold mb-1 text-gray-700">Customer Retrieval Rate</label>
+      <input
+        id="customerRetrievalRate"
+        type="number"
+        formControlName="customerRetrievalRate"
+        class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400 focus:outline-none"
+      />
+      <p *ngIf="f['customerRetrievalRate'].invalid && f['customerRetrievalRate'].touched" class="text-red-500 text-xs mt-1">
+        Customer retrieval rate must be a positive number.
+      </p>
+    </div>
+
+    <!-- Max Ticket Capacity -->
+    <div class="mb-5">
+      <label for="maxTicketCapacity" class="block text-sm font-semibold mb-1 text-gray-700">Max Ticket Capacity</label>
+      <input
+        id="maxTicketCapacity"
+        type="number"
+        formControlName="maxTicketCapacity"
+        class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400 focus:outline-none"
+      />
+      <p *ngIf="f['maxTicketCapacity'].invalid && f['maxTicketCapacity'].touched" class="text-red-500 text-xs mt-1">
+        Maximum ticket capacity must be a positive number.
+      </p>
+    </div>
+
+    <!-- Submit Button -->
+    <button
+      type="submit"
+      class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition disabled:opacity-50"
+      [disabled]="ticketForm.invalid"
+    >
+      Start
+    </button>
+  </form>
+</div>

@@ -1,0 +1,50 @@
+<div class="add-purchase">
+  <div class="status-bar">
+    <h2>Ticket Pool Status</h2>
+    <p>
+      Available Tickets: <span class="status-highlight">{{ ticketStatus.availableTickets }}</span>,
+      Released Tickets: <span class="status-highlight">{{ ticketStatus.releasedTickets }}</span>,
+      Total Tickets: <span class="status-highlight">{{ ticketStatus.totalTickets }}</span>,
+      Max Ticket Capacity: <span class="status-highlight">{{ ticketStatus.maxTicketCapacity }}</span>
+    </p>
+  </div>
+  <div class="content">
+    <div class="controls">
+      <button class="start-button" (click)="startSystem()" [disabled]="isRunning">Start</button>
+      <button class="stop-button" (click)="stopSystem()" [disabled]="!isRunning">Stop</button>
+    </div>
+
+    <!-- Ticket Actions -->
+    <div class="ticket-actions">
+      <div class="add-ticket">
+        <h3>Add Tickets</h3>
+        <input
+          type="number"
+          [(ngModel)]="addTicketCount"
+          placeholder="Enter ticket count"
+        />
+        <button (click)="addTickets()">Add Tickets</button>
+      </div>
+
+      <div class="purchase-ticket">
+        <h3>Purchase Tickets</h3>
+        <input
+          type="number"
+          [(ngModel)]="purchaseTicketCount"
+          placeholder="Enter ticket count"
+        />
+        <button (click)="purchaseTickets()">Purchase Tickets</button>
+      </div>
+    </div>
+
+    <!-- Response Section -->
+    <div *ngIf="backendResponse" class="response">
+      <p> {{ backendResponse }} </p>
+    </div>
+
+    <!-- Dashboard Button -->
+    <div class="dashboard-button">
+      <button (click)="goToDashboard()">Go to Dashboard</button>
+    </div>
+  </div>
+</div>

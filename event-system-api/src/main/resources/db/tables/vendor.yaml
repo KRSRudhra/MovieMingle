@@ -1,0 +1,48 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: sajee
+      changes:
+        - createTable:
+            tableName: vendor
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: username
+                  type: varchar(30)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: email
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: password
+                  type: varchar(20)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: phone
+                  type: bigint(10)
+                  constraints:
+                    nullable: true
+  - changeSet:
+      id: 2
+      author: sajee
+      changes:
+        - addColumn:
+            tableName: vendor
+            columns:
+              - column:
+                  name: is_admin
+                  type: boolean
+                  defaultValue: false
+                  constraints:
+                    nullable: false

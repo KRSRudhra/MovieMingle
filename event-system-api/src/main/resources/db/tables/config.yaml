@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: sajee
+      changes:
+        - createTable:
+            tableName: config
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: total_tickets
+                  type: bigint(4)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: max_ticket_capacity
+                  type: bigint(3)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: ticket_release_rate
+                  type: bigint(3)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: customer_retrieval_rate
+                  type: bigint(3)
+                  constraints:
+                    nullable: false

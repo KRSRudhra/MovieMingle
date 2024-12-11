@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/tables/customer.yaml
+  - include:
+      file: db/tables/vendor.yaml
+  - include:
+      file: db/tables/config.yaml
+  - include:
+      file: db/tables/ticket_log.yaml
