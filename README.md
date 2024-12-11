@@ -27,7 +27,7 @@ Follow these steps to set up and run the Event-Hive system:
 ### 1️⃣ Clone the Project
 Clone the repository to your local machine using the following command:
 ```bash
-git clone https://github.com/judebevan/event-ticketing-system.git
+git clone https://github.com/KRSRudhra/MovieMingle.git
 ```
 
 ---
@@ -131,20 +131,6 @@ Contributions are welcome! To contribute:
    git push origin feature-branch
    ```
 5. Open a pull request.
-
----
-
-## 🛡 License
-This project is licensed under the [MIT License](./LICENSE).
-
----
-
-## 📞 Contact
-
-For any inquiries or feedback, please contact:
-
-**Sajee**  
-[GitHub Profile](https://github.com/judebevan)
 
 ---
 
